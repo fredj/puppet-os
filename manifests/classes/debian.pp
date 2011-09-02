@@ -3,6 +3,7 @@ class os::debian {
   # Default packages
   #
   package {
+    "ack-grep":       ensure => present; # a grep replacement
     "at":             ensure => present; # usefull for reboots...
     "bc":             ensure => present;
     "bash-completion":ensure => present;
