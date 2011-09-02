@@ -30,6 +30,7 @@ class os::debian {
     "patch":          ensure => present;
     "psmisc":         ensure => present;
     "pwgen":          ensure => present;
+    "rake":           ensure => present; # a ruby build program
     "rdiff-backup":   ensure => present;
     "rsync":          ensure => present;
     "screen":         ensure => present;
